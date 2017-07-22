@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">" Quiz sul calcio"</string>
+    <string name="brazil_item_q1">Brasile</string>
+    <string name="brazil_item_q4">Brasile</string>
+    <string name="germany_item_q1">Germania</string>
+    <string name="holland_item_q4">Olanda</string>
+    <string name="italy_item_q1">Italia</string>
+    <string name="italy_item_q4">Italia</string>
+    <string name="lineker_item_q3">Linker</string>
+    <string name="edit_text_hint">Inserisci il cognome del calciatore</string>
+    <string name="submit">Invia</string>
+    <string name="test_soccer_knowledge">Testa la tua conoscenza calcistica</string>
+    <string name="italy_team_player_italy_90_q5">Chi faceva parte dell\'Italia a Italia \'90?</string>
+    <string name="mexico_86_top_scorer_q3">Chi ha segnato più reti a Messico \'86?</string>
+    <string name="more_golden_ball_winner_q2">Chi ha vinto più Palloni d\'oro?</string>
+    <string name="world_cup_2014_winner_q1">Quale squadra ha vinto Brasile \'14?</string>
+    <string name="more_world_cups_winner_q4">Quale squadra ha vinto più Coppe del mondo?</string>
+    <string name="pretty_good_knowledge_toast">Hai una conoscenza calcistica abbastanza buona</string>
+    <string name="expert_knowledge_toast">Complimenti! Sei un esperto di calcio</string>
+    <string name="improve_knowledge_toast">Devi migliorare la tua conoscenza calcistica</string>
+    <string name="something_knowledge_toast">Sai qualcosa sul calcio, ma puoi fare meglio</string>
+    <string name="of_6_toast">" di 6"</string>
+    <string name="accepted_replies_toast">"Risposte accettate: "</string>
+    <string name="golden_ball_2016_winner_q6">Chi ha vinto il suo quarto Pallone d\'oro nel 2016?</string>
+</resources>

@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorHint">@color/textColorHint</item>
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+    </style>
+    <!-- Style for questions-->
+    <style name="questions">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/textColorQuestions</item>
+        <item name="android:textSize">@dimen/textsizequestions</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <!-- Style for subtitle -->
+    <style name="subtitle">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/textColorSubtitle</item>
+        <item name="android:textSize">@dimen/textsizesubtitle</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <!-- Style for edit text -->
+    <style name="edit_text">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/textColorEditText</item>
+        <item name="android:textSize">@dimen/textsizeedittext</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <!-- Style for items -->
+    <style name="items">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+</resources>

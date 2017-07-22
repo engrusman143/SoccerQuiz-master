@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Soccer Quiz</string>
+    <string name="soccer_knowledge">Are you Ready?</string>
+    <string name="world_cup_2014_winner_q1">Which team won the world cup in 2006?</string>
+    <string name="italy_item_q1">Italy</string>
+    <string name="spain_item_q1">Spain</string>
+    <string name="usa_item_q1">USA</string>
+    <string name="more_golden_ball_q2">Who won more Golden Ball awards?</string>
+    <string name="edit_text_hint">Please insert player name here</string>
+    <string name="mexico_86_top_scorer_q3">How many goals scored in worldcup 2010?</string>
+    <string name="one_item_q3">145</string>
+    <string name="two_item_q3" translatable="false">120</string>
+    <string name="three_item_q3" translatable="false">200</string>
+    <string name="brazil_team_player2006_q4">Who belonged to Brazilian team in world cup 2006?</string>
+    <string name="roberto_carlos_item_q4" translatable="false">Roberto Carlos</string>
+    <string name="ronaldinho_item_q4" translatable="false">Ronaldinho</string>
+    <string name="kaka_item_q4" translatable="false">Kaka</string>
+    <string name="country_q5">In which country cristiano ronaldo belongs to?</string>
+    <string name="brazil_q5" translatable="false">brazil</string>
+    <string name="england_q5" translatable="false">england</string>
+    <string name="portugal_q5" translatable="false">portugal</string>
+    <string name="submit">Submit</string>
+    <string name="improve_knowledge_toast">You have to better your soccer knowledge</string>
+    <string name="something_knowledge_toast">You know something about soccer, but you can do better</string>
+    <string name="pretty_good_knowledge_toast">You have a pretty good soccer knowledge</string>
+    <string name="expert_knowledge_toast">Compliments! You are a soccer expert</string>
+    <string name="accepted_replies_toast">"Accepted replies: "</string>
+    <string name="of_5_toast">" of 5"</string>
+</resources>

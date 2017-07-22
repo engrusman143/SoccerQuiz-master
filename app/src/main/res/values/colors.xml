@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#579e28</color>
+    <color name="colorPrimaryDark">#35741b</color>
+    <color name="colorAccent">#579e28</color>
+    <color name="textColorHint">#90ffffff</color>
+    <color name="textColorQuestions">#FF3D00</color>
+    <color name="textColorSubtitle">#FF3D00</color>
+    <color name="textColorEditText">#FF7043</color>
+    <color name="textColorPrimary">#ffffff</color>
+    <color name="cardViewBackgroundColor">#EF6C00</color>
+</resources>

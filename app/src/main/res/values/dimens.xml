@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Padding & margin-->
+    <dimen name="padding">8dp</dimen>
+    <dimen name="paddingbottomsubtitle">16dp</dimen>
+    <dimen name="margin">8sp</dimen>
+    <!--Card View dimensions-->
+    <dimen name="cardcornerradius">6dp</dimen>
+    <dimen name="cardelevation">5dp</dimen>
+    <dimen name="cardcontentpadding">10dp</dimen>
+    <!--Text sizes dimensions-->
+    <dimen name="textsizequestions">16dp</dimen>
+    <dimen name="textsizesubtitle">20dp</dimen>
+    <dimen name="textsizeedittext">16dp</dimen>
+    <!--Floating action button dimensions-->
+    <dimen name="fab_MarginTop">16dp</dimen>
+    <dimen name="fab_BorderWidht">0dp</dimen>
+    <dimen name="fab_elevation">6dp</dimen>
+    <dimen name="fab_pressed">12dp</dimen>
+</resources>

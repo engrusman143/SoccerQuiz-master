@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.marconota.soccerquiz.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="1"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerCrop"
+        android:src="@drawable/soccer" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:id="@+id/activity_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/padding"
+            android:paddingLeft="@dimen/padding"
+            android:paddingRight="@dimen/padding"
+            android:paddingTop="@dimen/padding">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/paddingbottomsubtitle"
+                android:text="@string/soccer_knowledge"
+                android:textAppearance="@style/subtitle" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/world_cup_2014_winner_q1"
+                android:textAppearance="@style/questions" />
+
+            <!-- START*** CardView Container *** -->
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card_view:cardBackgroundColor="@color/cardViewBackgroundColor"
+                card_view:cardCornerRadius="@dimen/cardcornerradius"
+                card_view:cardElevation="@dimen/cardelevation"
+                card_view:cardPreventCornerOverlap="true"
+                card_view:cardUseCompatPadding="true"
+                card_view:contentPadding="@dimen/cardcontentpadding">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="@dimen/padding"
+                    android:paddingLeft="@dimen/padding">
+
+                    <RadioGroup
+                        android:id="@+id/radiogroup_question1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <RadioButton
+                            android:id="@+id/italy"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/italy_item_q1"
+                            android:textColor="@android:color/white" />
+
+                        <RadioButton
+                            android:id="@+id/spain"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/spain_item_q1"
+                            android:textColor="@android:color/white" />
+
+                        <RadioButton
+                            android:id="@+id/usa"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:text="@string/usa_item_q1"
+                            android:textColor="@android:color/white" />
+                    </RadioGroup>
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+            <!-- END*** CardView Container *** -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/more_golden_ball_q2"
+                android:textAppearance="@style/questions" />
+
+            <!-- START*** CardView Container *** -->
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card_view:cardBackgroundColor="@color/cardViewBackgroundColor"
+                card_view:cardCornerRadius="@dimen/cardcornerradius"
+                card_view:cardElevation="@dimen/cardelevation"
+                card_view:cardPreventCornerOverlap="true"
+                card_view:cardUseCompatPadding="true"
+                card_view:contentPadding="@dimen/cardcontentpadding">
+
+                <EditText
+                    android:id="@+id/question2_edittext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/edit_text_hint"
+                    android:textAppearance="@style/edit_text" />
+
+            </android.support.v7.widget.CardView>
+            <!-- END*** CardView Container *** -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mexico_86_top_scorer_q3"
+                android:textAppearance="@style/questions" />
+
+            <!-- START*** CardView Container *** -->
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card_view:cardBackgroundColor="@color/cardViewBackgroundColor"
+                card_view:cardCornerRadius="@dimen/cardcornerradius"
+                card_view:cardElevation="@dimen/cardelevation"
+                card_view:cardPreventCornerOverlap="true"
+                card_view:cardUseCompatPadding="true"
+                card_view:contentPadding="@dimen/cardcontentpadding">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/padding"
+                    android:paddingRight="@dimen/padding">
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <RadioButton
+                            android:id="@+id/one"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/one_item_q3"
+                            android:textColor="@android:color/white" />
+
+                        <RadioButton
+                            android:id="@+id/two"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/two_item_q3"
+                            android:textColor="@android:color/white" />
+
+                        <RadioButton
+                            android:id="@+id/three"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/margin"
+                            android:text="@string/three_item_q3"
+                            android:textColor="@android:color/white" />
+                    </RadioGroup>
+
+                </RelativeLayout>
+
+
+            </android.support.v7.widget.CardView>
+            <!-- END*** CardView Container *** -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin"
+                android:text="@string/brazil_team_player2006_q4"
+                android:textAppearance="@style/questions" />
+
+            <!-- START*** CardView Container *** -->
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card_view:cardBackgroundColor="@color/cardViewBackgroundColor"
+                card_view:cardCornerRadius="@dimen/cardcontentpadding"
+                card_view:cardElevation="@dimen/cardelevation"
+                card_view:cardPreventCornerOverlap="true"
+                card_view:cardUseCompatPadding="true"
+                card_view:contentPadding="@dimen/cardcontentpadding">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="@dimen/padding"
+                    android:paddingLeft="@dimen/padding">
+
+                    <CheckBox
+                        android:id="@+id/robertocarlos"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/roberto_carlos_item_q4"
+                        android:textColor="@android:color/white" />
+
+                    <CheckBox
+                        android:id="@+id/ronaldinho"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/robertocarlos"
+                        android:text="@string/ronaldinho_item_q4"
+                        android:textColor="@android:color/white" />
+
+                    <CheckBox
+                        android:id="@+id/kaka"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ronaldinho"
+                        android:layout_marginBottom="@dimen/margin"
+                        android:text="@string/kaka_item_q4"
+                        android:textColor="@android:color/white" />
+
+                </RelativeLayout>
+
+
+            </android.support.v7.widget.CardView>
+            <!-- END*** CardView Container *** -->
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/country_q5"
+                android:textAppearance="@style/questions" />
+
+
+            <!-- START*** CardView Container *** -->
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card_view:cardBackgroundColor="@color/cardViewBackgroundColor"
+                card_view:cardCornerRadius="@dimen/cardcornerradius"
+                card_view:cardElevation="@dimen/cardelevation"
+                card_view:cardPreventCornerOverlap="true"
+                card_view:cardUseCompatPadding="true"
+                card_view:contentPadding="@dimen/cardcontentpadding">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/padding"
+                    android:paddingRight="@dimen/padding">
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <RadioButton
+                            android:id="@+id/brazil"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/brazil_q5"
+                            android:textColor="@android:color/white" />
+
+                        <RadioButton
+                            android:id="@+id/england"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:buttonTint="@android:color/white"
+                            android:text="@string/england_q5"
+                            android:textColor="@android:color/white" />
+
+                        <RadioButton
+                            android:id="@+id/portugal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:buttonTint="@android:color/white"
+                            android:text="@string/portugal_q5"
+                            android:textColor="@android:color/white" />
+                    </RadioGroup>
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+            <!-- END*** CardView Container *** -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <android.support.design.widget.FloatingActionButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|end"
+                    android:layout_marginTop="@dimen/fab_MarginTop"
+                    android:onClick="displayScore"
+                    android:src="@drawable/ok"
+                    app:borderWidth="@dimen/fab_BorderWidht"
+                    app:elevation="@dimen/fab_elevation"
+                    app:pressedTranslationZ="@dimen/fab_pressed" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
+
